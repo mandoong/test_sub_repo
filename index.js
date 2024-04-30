@@ -1,13 +1,13 @@
 const sub = "sub"
 
-export class Test {
+export default class Test {
   constructor({
     name
   }) {
     this.name = name
   }
 
-  name() {
+  getName() {
     console.log(this.name)
   }
 
