@@ -1,7 +1,6 @@
 const sub = "sub"
 
-
-class test {
+export class Test {
   constructor({
     name
   }) {
